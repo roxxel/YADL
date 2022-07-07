@@ -30,6 +30,8 @@ namespace YADL.Parsers
             .Where(x => !x.IsInterface && typeof(IParser).IsAssignableFrom(x))
             .ToDictionary(k => ((IParser)Activator.CreateInstance(k)).Name, v => (IParser)Activator.CreateInstance(v));
 
+        public static List<IParser> Parsers => _parsers.Values.ToList();
+
         public bool TryDownload()
         {
             var url = _uri;

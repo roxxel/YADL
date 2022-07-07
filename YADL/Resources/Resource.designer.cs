@@ -3687,61 +3687,61 @@ namespace YADL
 			public const int expand_activities_button = 2131230823;
 			
 			// aapt resource value: 0x7F080069
-			public const int fab = 2131230825;
-			
-			// aapt resource value: 0x7F08006A
-			public const int fill = 2131230826;
-			
-			// aapt resource value: 0x7F08006D
-			public const int filled = 2131230829;
-			
-			// aapt resource value: 0x7F08006B
-			public const int fill_horizontal = 2131230827;
+			public const int fill = 2131230825;
 			
 			// aapt resource value: 0x7F08006C
-			public const int fill_vertical = 2131230828;
+			public const int filled = 2131230828;
+			
+			// aapt resource value: 0x7F08006A
+			public const int fill_horizontal = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int fill_vertical = 2131230827;
+			
+			// aapt resource value: 0x7F08006D
+			public const int @fixed = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int @fixed = 2131230830;
+			public const int forever = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int forever = 2131230831;
-			
-			// aapt resource value: 0x7F080070
-			public const int fragment_container_view_tag = 2131230832;
+			public const int fragment_container_view_tag = 2131230831;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
+			// aapt resource value: 0x7F080070
+			public const int ghost_view = 2131230832;
+			
 			// aapt resource value: 0x7F080071
-			public const int ghost_view = 2131230833;
+			public const int ghost_view_holder = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int ghost_view_holder = 2131230834;
+			public const int group_divider = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int group_divider = 2131230835;
+			public const int home = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int home = 2131230836;
+			public const int homeAsUp = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int homeAsUp = 2131230837;
+			public const int icon = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int icon = 2131230838;
+			public const int icon_group = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int icon_group = 2131230839;
+			public const int ifRoom = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int ifRoom = 2131230840;
+			public const int image = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int image = 2131230841;
+			public const int info = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int info = 2131230842;
+			public const int infoTextView = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
 			public const int italic = 2131230843;

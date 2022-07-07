@@ -10,6 +10,7 @@ using Google.Android.Material.Snackbar;
 using Android.Widget;
 using YADL.Parsers;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace YADL
 {
@@ -34,11 +35,12 @@ namespace YADL
                 downloader.TryDownload();
             }
 
-            var toolbar = FindViewById<AndroidX.AppCompat.Widget.Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-
-            FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
+            var infoView = FindViewById<TextView>(Resource.Id.infoTextView);
+            infoView.Text = "Hi! 👋\n" +
+                "Nothing fancy here\n" +
+                "\n" +
+                "Supported applications:\n" +
+                $"{string.Join("\n", Downloader.Parsers.Select(x=>$"- {x.Name}"))}";
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
